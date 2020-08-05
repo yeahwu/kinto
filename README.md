@@ -19,7 +19,9 @@
 
 ![v2ray](/img/kinto3.jpg)
 
-默认UUID：c95ef1d4-f3ac-4586-96e9-234a37dda068   额外ID（alterID）: 8
+默认UUID：c95ef1d4-f3ac-4586-96e9-234a37dda068
+
+默认额外ID（alterID）: 8
 
 ### 修改UUID
 方法一：
