@@ -1,0 +1,33 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOTICES AND INFORMATION FOR EXCLUDED COMPONENTS 
+
+cloudfoundry_cli
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TABLE OF CONTENTS
+
+THE REMAINDER OF THIS IBM NOTICES FILE CONSISTS OF THE FOLLOWING 
+SECTIONS:
+
+CC-BY-3.0 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CREATIVE COMMONS ATTRIBUTION 3.0 GENERIC
+
+The Program includes some or all of the following works licensed under
+the Creative Commons.
+The url to the license is https://creativecommons.org/licenses/by/3.0/legalcode
+
+BOOTSTRAP DOCS (https://github.com/twbs/bootstrap/tree/v3.3.2)
+
+END OF CREATIVE COMMONS ATTRIBUTION 3.0 GENERIC NOTICES AND INFORMATION
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+END OF IBM NOTICES AND INFORMATION 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+END OF NOTICE FILE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

@@ -1,0 +1,8 @@
+if ! (( $+functions[compdef] )) ; then
+ autoload -U +X compinit && compinit
+fi
+
+autoload -U +X bashcompinit && bashcompinit
+
+script_dir=$(dirname $0)
+source ${script_dir}/bash_autocomplete
