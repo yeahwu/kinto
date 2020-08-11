@@ -1,10 +1,7 @@
-FROM alpine
+FROM alpine:3.5
 
-ENV CONFIG=https://raw.githubusercontent.com/yeahwu/kinto/master/config.json
+RUN apk add --no-cache --virtual .build-deps ca-certificates curl unzip
 
-RUN apk update && apk --no-cache add ca-certificates unzip && \
-    wget -c https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip && \
-    unzip v2ray-linux-64.zip && rm -f v2ray-linux-64.zip && \
-    chmod 700 v2ray v2ctl
-    
-CMD ./v2ray -config $CONFIG
+ADD configure.sh /configure.sh
+RUN chmod +x /configure.sh
+CMD /configure.sh
