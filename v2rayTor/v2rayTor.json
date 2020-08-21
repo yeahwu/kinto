@@ -1,0 +1,25 @@
+{
+    "inbounds": 
+    [
+        {
+            "port": 80,"listen":"0.0.0.0","protocol": "vmess",
+            "settings": {"clients": [{"id": "984b5f72-52e7-47a8-ab77-85246327b0d5"}]},
+            "streamSettings": {"network": "ws","wsSettings": {"path": "/"}}
+        }
+    ],
+
+    "outbounds": 
+    [
+        {"protocol": "freedom","tag": "direct","settings": {}},
+        {"protocol": "socks","tag": "socksTor","settings": {"servers": [{"address": "127.0.0.1","port": 9050}]}}
+    ],
+
+    "routing": 
+    {
+        "rules": 
+        [
+            {"type": "field","outboundTag": "socksTor","domain": ["regexp:\\.onion$"]},
+            {"type": "field","outboundTag": "blocked","domain": ["geosite:category-ads-all"]}
+        ]
+    }
+}
