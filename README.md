@@ -24,13 +24,7 @@
 默认UUID：c95ef1d4-f3ac-4586-96e9-234a37dda068
 
 ### 修改UUID
-方法一：
-
-Fork本项目，到config.json里面修改uuid或者端口，然后到Dockerfile里面修改ENV CONFIG= 指向链接，例如：`ENV CONFIG=https://raw.githubusercontent.com/yeahwu/kinto/master/config.json`指向你自己项目的config.json文件。
-
-方法二：
-
-当然这个config.json链接也可以改为自己的私密链接，比如 https://gist.github.com/ 里写config.json配置，配置可参考本项目的config.json文件，然后生成链接。最后部署的时候写入到Environment variables里，如图：
+部署容器的时候在Environment variables 里设置UUID 为你的私密UUID值，可以从 https://1024tools.com/uuid 在线生成
 
 ![gist](/img/kinto4.jpg)
 
