@@ -1,59 +1,25 @@
 {
-    "inbounds": [
-        {
-            "port": 8888,
-            "protocol": "vmess",
-            "settings": {
-                "clients": [
-                    {
-                        "id": "c95ef1d4-f3ac-4586-96e9-234a37dda068"
-                    }
-                ]
-            },
-            "streamSettings": {
-                "network": "ws"
-            }
-        }
-    ],
-
-    "outbounds": [
-        {
-            "protocol": "freedom"
-        },
-        {
-            "protocol": "blackhole",
-            "tag": "blocked"
-        },
-        {
-            "protocol": "socks",
-            "tag": "sockstor",
-            "settings": {
-                "servers": [
-                    {
-                        "address": "127.0.0.1",
-                        "port": 9050
-                    }
-                ]
-            }
-        }
-    ],
-
-    "routing": {
-        "rules": [
-            {
-                "type": "field",
-                "outboundTag": "sockstor",
-                "domain": [
-                    "geosite:tor"
-                ]
-            },
-            {
-                "type": "field",
-                "outboundTag": "blocked",
-                "domain": [
-                    "geosite:category-ads-all"
-                ]
-            }
+  "inbounds": [
+    {
+      "port": 8080,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "7b68b8a9-ce56-d54c-9202-2098fbcc6610",
+            "alterId": 0
+          }
         ]
+      },
+      "streamSettings": {
+        "network":"ws"
+      }
     }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
 }
