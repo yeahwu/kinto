@@ -1,4 +1,4 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/yeahwu/kinto)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/rickychaw/V2ray-Heroku)
 
 > 提醒： 滥用可能导致账户被BAN！！！
 > 可尝试 [Shadowsocks 部署到 Heroku 项目](https://github.com/rickychaw/shadowsocks-libev)
