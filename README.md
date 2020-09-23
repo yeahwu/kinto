@@ -13,7 +13,7 @@ Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问t
 
 #### 客户端设置
 
-![443port](https://github.com/yeahwu/V2ray-Heroku/raw/master/img/kinto3.jpg)
+![443port](https://github.com/rickychaw/V2ray-Heroku/raw/master/img/kinto3.jpg)
 
 上图是443端口设置方法，当然你也可以设置80端口，不要打开tls就可以了，如下：
 
