@@ -18,7 +18,7 @@ Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问t
 上图是443端口设置方法，当然你也可以设置80端口，不要打开tls就可以了，如下：
 
 ```
-地址(address) : appname.herokuapp.com	//appname替换成你的app名字
+地址(address) : appname.herokuapp.com	    //将 appname 替换成 Heroku 中App的名称
 
 端口(port) : 80
 
