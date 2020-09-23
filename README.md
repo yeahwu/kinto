@@ -1,6 +1,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/yeahwu/kinto)
 
 > 提醒： 滥用可能导致账户被BAN！！！
+> 可尝试 [Shadowsocks 部署到 Heroku 项目](https://github.com/rickychaw/shadowsocks-libev)
 
 Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问tor网络，比如暗网.onion，v2ray.json文件中设置了路由分流了tor网络，非tor流量不受影响。
 
@@ -12,7 +13,7 @@ Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问t
 
 #### 客户端设置
 
-![443port](https://github.com/yeahwu/kinto/raw/master/img/kinto3.jpg)
+![443port](https://github.com/yeahwu/V2ray-Heroku/raw/master/img/kinto3.jpg)
 
 上图是443端口设置方法，当然你也可以设置80端口，不要打开tls就可以了，如下：
 
@@ -71,6 +72,5 @@ Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问t
   ]
 }
 ```
-捐赠本博：https://starts.sh/donation.html
 
 测试暗网页面：http://vq7kihyfoqcoluju.onion/donation.html
